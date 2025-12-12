@@ -1,40 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jey ann's Quiz App</title>
-    <link rel="stylesheet" href="siarot.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <!-- Audio Controls -->
-    <div class="audio-controls">
-        <button id="musicBtn" class="audio-btn">🎵 Music</button>
-        <button id="soundBtn" class="audio-btn">🔊 Sound: ON</button>
-    </div>
-    
-    <!-- Background Music Audio -->
-    <audio id="bgMusic" loop preload="auto">
-        <source src="data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAo" type="audio/wav">
-    </audio>
-    
-    <!-- Sound Effects Audio -->
-    <audio id="clickSound" preload="auto">
-        <source src="data:audio/wav;base64,UklGRl9vAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAo" type="audio/wav">
-    </audio>
-    
-    <div class="quiz-container">
-        <div class="quiz-header">
-            <h1 class="flash-bg">JAVASCRIPT QUIZ</h1>
-            <div class="progress-bar">
-                <div class="progress" id="progress"></div>
-            </div>
-            <div id="questionCounter">Question <span id="currentQuestion">1</span> of <span id="totalQuestions">10</span></div>
-        </div>
-        <div class="quiz-body" id="quizBody">
-            <!-- Questions will be dynamically inserted here -->
-        </div>
-    </div>
-    <script src="siarot.js"></script>
+  <link rel="stylesheet" href="app.css">
+<h1>Todos</h1>
+<ul>
+  <li class="done">Walk Chickens</li>
+  <li>Clean Out Coop</li>
+  <li class="done">Collect Chicken Eggs</li>
+  <li>Incubate Chicken Eggs</li>
+  <li>Hatch New Chickens!</li>
+</ul>
+<button id="clear">Clear List</button>
+<button>Add Todo</button>
 </body>
 </html>
